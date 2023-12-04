@@ -39,6 +39,7 @@ img {
 /* NAV BAR END */
 
 /* LANDING PAGE START */
+
 #mont {
   font-family: "Montserrat", sans-serif;
   max-width: 30rem;
@@ -126,7 +127,6 @@ img {
 }
 
 #project-title {
-  margin-top: 50px;
   background: #17a2b8;
   background: linear-gradient(to right, #17a2b8 0%, #ff69b4 100%);
   -webkit-background-clip: text;
