@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,8 +20,8 @@
     <!-- MAIN SECTION START -->
     <main id="nav-transparent">
       <!-- START HOME TOP IN NAV SO IF I CLICK HOME IT GOES AT THE VERY TOP -->
-      <!-- HOME TOP START -->
-      <section id="home-top">
+      <!-- MAIN START -->
+      <section id="main">
         <!-- NAVBAR START -->
         <nav class="navbar navbar-expand-lg navbar-dark sticky-top pt-3" id="nav-height">
           <div class="container" id="nav">
@@ -37,7 +38,7 @@
                   <span class="navbar-toggler-icon"></span>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#home-top">Home</a></li>
+                  <li><a class="dropdown-item" href="#main">Home</a></li>
                   <li><a class="dropdown-item" href="#project">Projects</a></li>
                   <li><a class="dropdown-item" href="#tools">Tools</a></li>
                   <li><a class="dropdown-item" href="#contact">Contacts </a></li>
@@ -51,14 +52,14 @@
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
                   <!-- HOME LINK START -->
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#home-top">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#main">Home</a>
                   </li>
                   <!-- HOME LINK END -->
                   <!-- PROJECT LINK START -->
                   <li class="nav-item">
                     <a class="nav-link" href="#project">Projects</a>
                   </li>
-                  <!-- PROJECT LINK END -->
+                  <!-- PROJECT LINK END --> 
                   <!-- TOOLS LINK START -->
                   <li class="nav-item">
                     <a class="nav-link" href="#tools">Tools</a>
@@ -95,7 +96,7 @@
                 <!--IMG INTRO START-->
               </div>
               <div class="col-md-6">
-                <img src="./images/368099471_711734600609067_5121077967038855943_n-removebg-preview.png" alt=""
+                <img src="./images/368099471_711734600609067_5121077967038855943_n-removebg-preview.png" alt="" 
                   class="img-fluid" />
               </div>
               <!--IMG INTRO END-->
@@ -114,7 +115,7 @@
               <!-- skill 1-->
               <div class="row">
                 <div class="col-md-6 col-lg-3">
-                  <article class="skills-content">
+                  <article class="skills-content" data-aos="fade-up">
                     <!-- icon -->
                     <div class="skills-icon">
                       <i class="fa-solid fa-hand-fist fa-3x iconskills"></i>
@@ -132,7 +133,7 @@
 
                 <!-- skill 2 -->
                 <div class="col-md-6 col-lg-3">
-                  <article class="skills-content">
+                  <article class="skills-content" data-aos="fade-up">
                     <!-- icon 2-->
                     <div class="skills-icon">
                       <i class="fa-solid fa-brain fa-3x"></i>
@@ -150,7 +151,7 @@
 
                 <!-- skill 3-->
                 <div class="col-md-6 col-lg-3">
-                  <article class="skills-content">
+                  <article class="skills-content" data-aos="fade-up">
                     <!-- icon 3-->
                     <div class="skills-icon">
                       <i class="fa-solid fa-handshake-angle fa-3x"></i>
@@ -168,7 +169,7 @@
 
                 <!-- skill 4 -->
                 <div class="col-md-6 col-lg-3">
-                  <article class="skills-content">
+                  <article class="skills-content" data-aos="fade-up">
                     <!-- icon 4 -->
                     <div class="skills-icon">
                       <i class="fa-solid fa-school fa-3x"></i>
@@ -199,7 +200,7 @@
   <h2 class="text-center mb-5" id="project-title">My Projects</h2>
   <div class="container">
     <div class="row pb-5">
-      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up">
         <!-- Project 1 -->
         <figure class="projects btn-gradient-1">
           <img src="./images/ecommerce-is-booming.png" alt="" class="bg-dark img-fluid" />
@@ -209,7 +210,7 @@
           </figcaption><i class="fa-solid fa-cart-shopping"></i>
         </figure>
       </div>
-      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up">
         <!-- Project 2 -->
         <figure class="projects btn-gradient-1">
           <img src="./images/blog-la-gi-3.webp" alt="" class="bg-dark img-fluid" />
@@ -219,7 +220,7 @@
           </figcaption><i class="fa-solid fa-blog"></i></i>
         </figure>
       </div>
-      <div class="col-lg-4 col-md-6 d-flex justify-content-center">
+      <div class="col-lg-4 col-md-6 d-flex justify-content-center" data-aos="fade-up">
         <!-- Project 3 -->
         <figure class="projects btn-gradient-1">
           <img src="./images/taskmanagement.jpeg" alt="" class="bg-dark img-fluid" />
@@ -229,17 +230,17 @@
           </figcaption><i class="fa-solid fa-list-check"></i>
         </figure>
       </div>
-      <div class="col-lg-6 col-md-6 d-flex justify-content-evenly">
+      <div class="col-lg-6 col-md-6 d-flex justify-content-evenly" data-aos="fade-up">
         <!-- Project 4 -->
         <figure class="projects btn-gradient-1">
-          <img src="./images/368612573_811067500788464_4873532926477522339_n.jpg  " alt="" class="bg-dark img-fluid" />
+          <img src="./images/368612573_811067500788464_4873532926477522339_n.jpg  " alt="" class="bg-dark img-fluid" data-aos="fade-up"/>
           <figcaption>
             <h3>Discussion Forum</h3>
             <p>Discussion forum for meaningful conversations.</p>
           </figcaption><i class="fa-solid fa-comment"></i>
         </figure>
       </div>
-      <div class="col-lg-6 col-md-12 d-flex justify-content-evenly">
+      <div class="col-lg-6 col-md-12 d-flex justify-content-evenly" data-aos="fade-up">
         <!-- Project 5 -->
         <figure class="projects btn-gradient-1">
           <img src="./images/project5.png" alt="" class="bg-dark img-fluid" />
@@ -262,78 +263,86 @@
   <div class="container text-center">
 
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4" data-aos="fade-up">
         <!-- Front End Tools -->
         <h3 class="tools-text">Front End</h3>
         <div class="store">
           <div class="row">
+           
             <div class="col-6">
-              <img src="./images/logo-html5.png" alt="" class="img-fluid">
+              <img src="./images/logo-html5.png" alt=""  class="img-fluid">
             </div>
             <div class="col-6">
-              <img src="./images/logo-css3.png" alt="" class="img-fluid">
+              <img src="./images/logo-css3.png" alt=""  class="img-fluid">
             </div>
             <div class="col-6">
-              <img src="./images/logo-bootstrap.png" alt="" class="img-fluid">
+              <img src="./images/logo-bootstrap.png" alt=""  class="img-fluid">
             </div>
             <div class="col-6">
-              <img src="./images/logo-javascript.png" alt="" class="img-fluid">
+              <img src="./images/logo-javascript.png" alt=""  class="img-fluid">
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <!-- End of Front End Tools -->
+      <div class="col-md-4" data-aos="fade-up">
         <!-- MERN Tools -->
         <h3 class="tools-text">MERN</h3>
         <div class="store">
           <div class="row">
             <div class="col-6">
-              <img src="./images/logo-mongodb.png" alt="" class="img-fluid">
+              <img src="./images/logo-mongodb.png" alt=""  class="img-fluid">
             </div>
             <div class="col-6">
-              <img src="./images/logo-expressjs.png" alt="" class="img-fluid">
+              <img src="./images/logo-expressjs.png" alt=""  class="img-fluid">
             </div>
             <div class="col-6">
-              <img src="./images/logo-react.png" alt="" class="img-fluid">
+              <img src="./images/logo-react.png" alt=""  class="img-fluid">
             </div>
             <div class="col-6">
-              <img src="./images/logo-nodejs.png" alt="" class="img-fluid">
+              <img src="./images/logo-nodejs.png" alt=""  class="img-fluid">
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <!-- End of MERN Tools -->
+      <div class="col-md-4" data-aos="fade-up">
         <!-- Other Tools -->
         <h3 class="tools-text">OTHER TOOLS</h3>
         <div class="store">
           <div class="row">
             <div class="col-6">
-              <img src="./images/logo-heroku.png" alt="" class="img-fluid">
+              <img src="./images/logo-heroku.png" alt=""  class="img-fluid">
             </div>
             <div class="col-6">
-              <img src="./images/logo-git.png" alt="" class="img-fluid">
+              <img src="./images/logo-git.png" alt=""  class="img-fluid">
             </div>
             <div class="col-6">
-              <img src="./images/logo-postman.png" alt="" class="img-fluid">
+              <img src="./images/logo-postman.png" alt=""  class="img-fluid">
             </div>
             <div class="col-6">
-              <img src="./images/logo-sublime-text-3.png" alt="" class="img-fluid">
+              <img src="./images/logo-sublime-text-3.png" alt=""  class="img-fluid">
             </div>
           </div>
         </div>
       </div>
+      <!-- End of Other Tools -->
     </div>
   </div>
+  
 </section>
+<!-- END OF TOOLS SECTION -->
 
-
+<!-- DIVIDER START -->
 <div id="divider"></div>
+<!-- DIVIDER END -->
 
+<!-- CONTACT SECTION START -->
 <section id="contact">
   <div class="container">
     <h1 class="text-center pt-4 contact-text mb-5">Contact Me</h1>
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6" data-aos="fade-up">
         <h3 class="text-center mb-3 contact-text">Location</h3>
         <div class="d-flex justify-column-center">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125585.15710785!2d123.76389284552752!3d10.378922811263628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999258dcd2dfd%3A0x4c34030cdbd33507!2sCebu%20City%2C%206000%20Cebu!5e0!3m2!1sen!2sph!4v1701604403137!5m2!1sen!2sph" allowfullscreen="" class="contact-text" loading="lazy" id="googleMap" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -343,6 +352,8 @@
         <h3 class="text-center contact-text">Message Me</h3>
         <div class="text-light">
           <div class="mb-3">
+            <div data-aos="fade-up">
+              <!-- FORM START -->
             <form id="myForm">
               <div class="mb-3">
                 <label for="name" class="form-label"><h4>Full Name</h4></label>
@@ -358,13 +369,15 @@
                 <label for="floatingTextarea" class="form-label"><h4>Message</h4></label>
                 <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea" required></textarea>
               </div>
-              <!-- Button trigger modal -->
+              <!-- BUTTON TRIGGER MODAL START -->
               <div class="d-flex justify-content-center mt-5">
                 <button type="button" class="btn text-light" id="modalButton" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                   SEND MESSAGE
                 </button>
               </div>
-              <!-- Modal -->
+            </div>
+            <!-- BUTTON TRIGGER MODAL END -->
+              <!-- MODAL START -->
               <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog ">
                   <div class="modal-content bg-dark">
@@ -380,14 +393,23 @@
                     </div>
                   </div>
                 </div>
+                <!-- MODAL END -->
               </div>
+
             </form>
+            <!-- FORM END -->
           </div>
         </div>
       </div>
     </div>
+         <!-- MESSAGE END -->
+  </div>
+</div>
 
-    <div id="socMed" class="d-flex justify-content-center align-items-center gap-5 mt-5 pb-5">
+
+
+    <!-- SOCIAL MEDIA START -->
+    <div id="socMed" class="d-flex justify-content-center align-items-center gap-5 mt-5 pb-5" data-aos="fade-up">
       
       
       <a href="https://www.facebook.com/JudeMikaelValencia/" target="_blank"><i class="fab fa-facebook fa-4x"></i></a>
@@ -397,26 +419,30 @@
       <a href="https://gitlab.com/jvall" target="_blank"><i class="fab fa-gitlab fa-4x"></i></a>
       <a href="https://github.com/JudeeeeeV" target="_blank"><i class="fab fa-github fa-4x"></i></a>
     </div>
-    
- 
+        <!-- SOCIAL MEDIA END -->
+
   </section>
 
+  <!-- CONTACT SECTION END -->
+
+  <!-- FOOTER START -->
   <footer>
     <div class="d-flex flex-column justify-content-center align-items-center pt-2 text-light">
       <h6>Jude Mikael Valencia | Full Stack Web Developer</h6>
       <h6>&#169; All Rights Reserved 2023</h6>
     </div>
   </footer>
-
+  <!-- FOOTER END -->
   </section>
-  
-
-        <!-- HOME TOP END -->
+  <!-- MAIN END -->
 
         <!-- BOOTSTRAP -->
         
         <script src="index.js"> </script>
-
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
