@@ -52,7 +52,9 @@ img {
   -webkit-text-fill-color: transparent;
 }
 /* LANDING PAGE END */
-
+.skills {
+  min-height: 28vh;
+}
 /* SKILLS SECTION START */
 .skills-content {
   padding: 2rem;
@@ -109,6 +111,7 @@ img {
 }
 #divider {
   height: 10px;
+  width: 100vw;
   background: linear-gradient(
     to right,
     #17a2b8,
